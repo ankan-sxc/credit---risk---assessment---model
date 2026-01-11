@@ -16,10 +16,16 @@ import numpy as np
 
 # Loading artifacts
 
-model = joblib.load("model.pkl")
-preprocessor = joblib.load("preprocessor.pkl")
-feature_names = joblib.load("feature_names.pkl")
-explainer = joblib.load("explainer.pkl")
+import os
+import joblib
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, "model.pkl"))
+preprocessor = joblib.load(os.path.join(BASE_DIR, "preprocessor.pkl"))
+explainer = joblib.load(os.path.join(BASE_DIR, "explainer.pkl"))
+feature_names = joblib.load(os.path.join(BASE_DIR, "feature_names.pkl"))
+
 
 st.set_page_config(page_title="Explainable Credit Risk System", layout="wide")
 
