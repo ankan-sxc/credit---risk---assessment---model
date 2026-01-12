@@ -76,6 +76,7 @@ credit-risk-project/
 └── Dockerfile
 ├── data/
 │   ├── raw.csv
+│   ├── cleaned_data_for_powerbi.csv
 │   └── processed.csv
 │
 ├── notebooks/
@@ -92,6 +93,7 @@ credit-risk-project/
 │   └── credit_risk_dashboard.pbix
 │
 ├── requirements.txt
+├── runtime.txt
 └── README.md
 
 
