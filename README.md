@@ -69,13 +69,13 @@ A Power BI dashboard was created to support portfolio-level risk monitoring, inc
 - Risk segmentation across demographic and financial attributes
 
 ---
-
 ## Project Structure
+
+```text
 credit-risk-project/
-│
 ├── data/
 │   ├── raw.csv
-│   ├── processed.csv
+│   └── processed.csv
 │
 ├── notebooks/
 │   └── credit_risk.ipynb
@@ -92,6 +92,7 @@ credit-risk-project/
 │
 ├── requirements.txt
 └── README.md
+
 
 ---
 
