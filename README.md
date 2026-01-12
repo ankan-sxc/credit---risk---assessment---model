@@ -57,7 +57,7 @@ A Streamlit-based web application was developed for real-time credit risk assess
 - Cloud deployment for public access
 
 **Live Application:**  
-👉 _[PASTE YOUR STREAMLIT CLOUD LINK HERE]_
+I’m actively working on the deployment side, especially around cloud compatibility, dependency management, and model portability.
 
 ---
 
